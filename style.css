@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #2b2922;
+    border-left: 200px solid black;
+    border-right: 200px solid black;
+    height: 100vh;
+    font-family: "Roboto" , sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+.logo-img{
+    width: 8vw;
+    margin-top: 30px;
+}
+.list-items{
+    margin-top: 30px;
+}
+.list-item{
+    margin-right: 40px;
+    color: #fff;
+    font-size: 15px;
+    color: #918c8c;
+}
+.active{
+    color: #fff;
+}
+.btn button{
+    padding: 10px 25px;
+    font-size: 17.5px;
+    background: transparent;
+    color: #937c41;
+    border: 2px solid #937c41;
+    border-radius: 7.5px;
+}
+.text{
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+    margin-top: 50px;
+}
+.text-left h1{
+    font-size: 50px;
+    width: 25vw;
+    font-weight: 500;
+}
+.text-right p{
+    width: 25vw;
+    font-size: 17.5px;
+    margin-top: 15px;
+    font-weight: 100;
+}
+.order{
+    width: 74vw;
+    margin: 25px 0px;
+    height: 55vh;
+
+}
+footer{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -28px;
+}
+.fas{
+    font-size: 50px;
+}
+
+.leftbutton {
+    color: #a08f36;
+    background-color: #39372d;
+    padding: 16px;
+    border: none;
+    outline: none;
+  }
+  .rightButton {
+    background-color: #a08f36;
+    color: #fff;
+    padding: 16px;
+    border: none;
+    outline: none;
+  }
